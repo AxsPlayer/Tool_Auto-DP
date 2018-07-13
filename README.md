@@ -9,9 +9,16 @@ The scripts are organized by categories of tasks.
 
 - The Recommendation System:
   - Rating_Matrix: Convert rating dataframe into UxM-Matrix.
-    The data structure should be as following:
+    The input data structure should be as following:
     
             eg.
                 
             |   user_id   |  item_id   |   score   |
             |      1      |     3      |    6.5    |
+    
+    The output matrix should be:
+    
+            eg.
+            |  user_id/item_id  |  123  |  125  |
+            |        001        |  6.5  |   8   |
+            |        007        |   8   |   9   |
